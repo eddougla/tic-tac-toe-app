@@ -1,0 +1,134 @@
+/* 
+==============================================
+START OF PAGE SETUP
+==============================================
+*/
+
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    background: white;
+}
+
+body {
+    width: 90vw;
+    margin: 0 auto;
+    height: fit-content;
+    max-width: 1440px;
+}
+
+main {
+    width: 90vw;
+    max-width: 1296px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1440px) {
+
+    body {
+        width: 100vw;
+    }
+
+    main {
+        width: 90vw;
+        max-width: 1296px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+
+    body {
+        width: 100vw;
+    }
+
+    main {
+        width: 90vw;
+        max-width: 358px;
+    }
+
+
+}
+
+/* 
+==============================================
+END OF PAGE SETUP
+==============================================
+*/
+
+
+.team {
+    margin-top: var(--spacingS);
+}
+
+
+.team h1 {
+    padding-bottom: var(--spacingM);
+}
+
+.shop_categories {
+    margin-top: var(--spacingS);
+}
+
+.shop_categories h1 {
+    padding-bottom: var(--spacingM);
+}
+
+.testimonials {
+    margin-top: var(--spacingS);
+}
+
+.testimonials h1 {
+    padding-bottom: var(--spacingM);
+}
+
+
+.staff {
+    margin-top: var(--spacingXL);
+}
+
+.services h1 {
+    padding-bottom: var(--spacingM);
+}
+
+footer {
+    margin-top: var(--spacingXXL);
+}
+
+.gallery {
+    margin-top: var(--spacingM);
+}
+
+.gallery h1 {
+    padding-bottom: var(--spacingM);
+}
+
+.appointment {
+    margin-top: var(--spacingXL);
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    gap: var(--spacingL);
+}
+
+.cart h1 {
+    padding-bottom: var(--spacingM);
+}

@@ -1,0 +1,35 @@
+html{
+    --Primary: #5F4D3D;
+    --On-Primary: #FFF;
+    --Primary-Container: #847060;
+    --On-Primary-Container: #FFF;
+    --Secondary: #665C55;
+    --On-Secondary: #FFF;
+    --Secondary-Container: #F2E3DA;
+    --On-Secondary-Container: #514841;
+    --Tertiary: #4F503D;
+    --On-Tertiary: #FFF;
+    --Tertiary-Container: #747560;
+    --On-Tertiary-Container: #FFF;
+    --Error: #AB2D25;
+    --On-Error: #FFF;
+    --Error-Container: #F9DBD7;
+    --On-Error-Container: #3B0605;
+    --Surface: #FEF8F5;
+    --Surface-Dim: #DED9D6;
+    --Surface-Bright: #FEF8F5;
+    --On-Surface: #1D1B1A;
+    --On-Surface-Variant: #4D453F;
+    --Surface-Container: #F2ECE9;
+    --Surface-Container-Lowest: #FFF;
+    --Surface-Container-Low: #F8F2EF;
+    --Surface-Container-High: #EDE7E4;
+    --Surface-Container-Highest: #E7E1DE;
+    --Inverse-Surface: #32302E;
+    --Inverse-On-Surface: #F5EFEC;
+    --Inverse-Primary: #DAC2AF;
+    --Outline: #7E756E;
+    --Outline-Variant: #D0C4BC;
+    --Scrim: #000;
+    --Shadow: #000;
+}

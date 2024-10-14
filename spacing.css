@@ -1,0 +1,8 @@
+html{
+    --spacingXS: .25rem;
+    --spacingS: .5rem;
+    --spacingM: 1.5rem;
+    --spacingL: 2rem;
+    --spacingXL: 4.5rem;
+    --spacingXXL: 8rem;
+}
